@@ -1,0 +1,156 @@
+.view-container {
+  background-color: #f5eeef;
+  padding: 20px;
+  position: relative;
+}
+
+.view-heading {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.product-content {
+  flex: 1;
+}
+
+.product-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.product-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-button {
+  background-color: #9bc5f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #5d8aea;
+}
+
+.product-details2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image2 {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 4%;
+}
+
+.product-content2 {
+  flex: 1;
+}
+
+.product-title2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.product-description2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-button2 {
+  background-color: #9bc5f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-to-cart-button2:hover {
+  background-color: #5d8aea;
+}
+
+.product-details3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image3 {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 4%;
+}
+
+.product-content3 {
+  flex: 1;
+}
+
+.product-title3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.product-description3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cartimg {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.cart-count {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #1b77d8;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.backview
+{
+  position: absolute;
+  bottom:91%
+ 
+}
+.backview:hover
+{
+  background-color:darkgoldenrod; 
+    color: white;
+}

@@ -1,0 +1,79 @@
+.updateform {
+    width: 480px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color:#ede2e4;
+    box-shadow: 2px 4px 8px #07070740;
+    text-align: center;
+    opacity: 0.8;
+    margin-left: 22%;
+  }
+  
+ .updatebutton
+ {
+    width: 23%;
+    border: none;
+    padding: 10px 0;
+    margin: 24px 0;
+    border-radius: 3px;
+    background-color:#b76910;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+ }
+ 
+  
+  .rating
+  {
+    margin-left: 9.8%;
+  }
+  
+  .price
+  {
+    margin-left:9.8%;
+}
+
+.updatebg
+{
+    background-image: url("https://cdn.pixabay.com/photo/2022/03/19/11/13/girl-7078329_1280.jpg");
+ 
+    backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background-size: cover;
+  width: 100vw;
+    height: 110vh;
+    background-size: 400vh100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+     position: fixed;
+     width: 120vw;
+     height: 120vh;
+     top:35%;
+     left:57%;
+     transform: translate(-50%, -50%);
+     justify-content: left;
+     align-items: center;
+}
+.updatebg
+{
+    min-height: 100vh;
+    display: grid;
+    place-items: left;
+    margin-top: 10%;
+    margin-left: 3%;
+    background-color: #ede2e4;
+    
+}
+.cancelubutton
+{
+    width: 23%;
+    
+    padding: 10px 0;
+    margin: 24px 0;
+    border-radius: 3px;
+    background-color: #b76910;;
+    margin-left: 6%;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}

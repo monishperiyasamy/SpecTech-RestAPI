@@ -1,0 +1,97 @@
+.homebg {
+  background-color: #f5eeef;
+  padding: 20px;
+  height: fit-content;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.card {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+.view-button {
+  background-color: #9bc5f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 2%;
+}
+
+.view-button:hover {
+  background-color: #5d8aea;
+}
+
+.view-products-button {
+  background-color: #9bc5f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.view-products-button:hover {
+  background-color: #5d8aea;
+}
+
+.section-heading {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.spectech {
+  margin-top: 40px;
+  margin-bottom: 27px;
+  margin-left: 42%;
+  font-style: italic;
+  font-size: xxx-large;
+}
+.backhome
+{
+  position: absolute;
+  bottom:91%
+ 
+}
+.backhome:hover
+{
+  background-color:darkgoldenrod; 
+    color: white;
+}
